@@ -1,0 +1,14 @@
+/* 加载样式  */
+.datas-loading{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40rpx;
+}
+.datas-loading .img{
+    width: 80rpx;
+}
+.datas-loading .msg{
+    font-size: 22rpx;
+    color: #999;
+}

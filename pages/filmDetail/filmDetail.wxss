@@ -1,0 +1,162 @@
+/* 电影标题  */
+.film-desc {
+    position: relative;
+    height: 300rpx;
+    width: 100%;
+    margin-bottom: 60rpx;
+}
+.film-desc .desc-bc{
+    height: 300rpx;
+    overflow: hidden;
+}
+.film-desc .desc-bc .bc-shade{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.6;
+}
+.film-desc .desc-bc image{
+    width: 100%;
+}
+.film-desc .film-info{
+    position: absolute;
+    top: 100rpx;
+    height: 250rpx;
+    z-index: 99;
+    left: 30rpx;
+    display: flex; 
+}
+.film-desc .film-info .film-img{
+    width: 240rpx;
+    height: 100%;
+    margin-right: 12rpx;
+}
+.film-desc .film-info .film-intro{
+    color: white;
+}
+.film-intro .title{
+    font-size: 28rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+}
+.film-intro .source{
+    font-size: 32rpx;
+}
+
+/* 电影介绍 */
+.film-detail{
+    margin: 18rpx 0rpx;
+}
+.film-detail .info{
+    font-size: 22rpx;
+    padding: 12rpx 20rpx 0rpx;
+}
+.film-detail .info text:first-child{
+  color: #42bd56;
+  font-weight: bold;
+}
+.film-detail .info.bottom{
+    padding-bottom: 20rpx;
+}
+.film-detail .collection{
+    width: 60%;
+    display: block;
+    text-align: center;
+    line-height: 60rpx;
+    font-size: 24rpx;
+    height: 60rpx;
+    color: sandybrown;
+    border: 1px solid sandybrown;
+    border-radius: 10rpx;
+}
+/* 演员 和 评论 公用  */
+.title{
+    font-size: 30rpx;
+    line-height: 40rpx;
+}
+
+.title text {
+    display: block;
+    padding-left: 30rpx;
+    border-left: 6rpx solid #42bd56;
+    border-bottom: 2rpx solid #ccc;
+    padding-bottom: 10rpx;
+    padding-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+/* 演员列表  */
+.performer-list .actors {
+    width: 100%;
+    white-space: nowrap;
+}
+
+.performer-list .actors .actors-item {
+    display: inline-block;
+    padding-right: 20rpx;
+    vertical-align: top;
+}
+
+.performer-list .actors .actors-item:first-child {
+    padding-left: 20rpx;
+}
+
+.performer-list .actors .actors-img {
+    width: 160rpx;
+    height: 220rpx;
+    display: block;
+}
+
+.performer-list .actors .actors-name {
+    text-align: center;
+    font-size: 22rpx;
+    font-weight: bolder;
+    color: #333;
+    width: 160rpx;
+    display: inline-block;
+    white-space: pre-wrap;
+    vertical-align: top;
+}
+
+/* 评论列表  */
+.comment-list .item{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.comment-list .item .item-left {
+    width: 100rpx;
+    height: 100%;
+    margin: 10rpx auto;
+    text-align: center;
+}
+.comment-list .item .item-left image {
+    width: 80rpx;
+    height: 80rpx;
+    border-radius: 50%;
+}
+.comment-list .item .item-right {
+    padding-left: 20rpx;
+    flex: 1;
+    height: 100%;
+    margin-top: 20rpx;
+    border-bottom: 2rpx solid #ccc;
+    padding-bottom: 30rpx;
+    margin-bottom: 10rpx;
+}
+.comment-list .item .username {
+    font-size: 26rpx;
+    margin-bottom: 10rpx;
+}
+.comment-list .item .item-time {
+    font-size: 24rpx;
+    color: #999;
+    margin-bottom: 10rpx;
+}
+.comment-list .item .item-main {
+    font-size: 24rpx;
+    line-height: 36rpx;
+    color: #222;
+    padding-right: 20rpx;
+}

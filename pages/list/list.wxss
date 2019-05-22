@@ -1,0 +1,50 @@
+/* 主页布局 */
+
+.film {
+    width: 100%;
+}
+
+/* 分类样式 */
+
+.film-type {
+    background-color: white;
+    margin-top: 20rpx;
+}
+
+.film .film-type:first-child {
+    margin-top: 0rpx;
+}
+
+/* 分类标题 */
+
+.type-title {
+    padding: 26rpx 0rpx;
+    font-size: 28rpx;
+    font-weight: bold;
+    color: #333;
+}
+
+.type-title text:first-child {
+    border-left: 6rpx solid #42bd56;
+    padding-left: 26rpx;
+}
+
+/* 电影列表 */
+
+.film-list {
+    display: flex;
+    white-space: nowrap;
+    flex-flow: row wrap;
+    /* 
+      一行数量不足时，以当前的数量进行分配
+    */
+    justify-content: space-around;
+    padding: 0rpx 12rpx;
+}
+
+/* 电影元素 */
+.film-item-add{
+     width: 200rpx;
+     display: inline-block;
+     padding:0rpx 12rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+      "film-item": "../../components/filmItem/filmItem",
+      "loading":"../../components/loading/loading"
+  }
+}

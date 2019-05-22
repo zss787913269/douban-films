@@ -1,0 +1,47 @@
+/* components/filmItem/filmItem.wxss */
+/* 电影元素 */
+.film-item {
+    width: 200rpx; 
+    display: inline-block;
+    padding:0rpx 12rpx;
+    margin-bottom: 20rpx;
+    vertical-align: top;
+}
+.item-img {
+    width: 200rpx;
+    height: 280rpx;
+    display: block;
+    margin-bottom: 10rpx;
+}
+
+.item-name {
+    font-size: 22rpx;
+    font-weight: bolder;
+    color: #333;
+    width: 180rpx;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.item-star {
+    color: #999;
+    height: 28rpx;
+    line-height: 28rpx;
+}
+
+.item-star .image {
+    width: 20rpx;
+    height: 20rpx;
+    vertical-align: middle;
+}
+
+.item-star .item-source {
+    font-size: 20rpx;
+    padding-left: 8rpx;
+    color: #999;
+     vertical-align: middle; 
+}
+.item-star.msg{
+    font-size: 22rpx;
+}

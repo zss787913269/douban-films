@@ -1,0 +1,4 @@
+<view class='datas-loading'>
+    <image class='img' mode='widthFix' src='../../imgs/loading.gif'></image>
+    <view class='msg'>数据加载中……</view>
+</view>

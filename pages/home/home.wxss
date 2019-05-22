@@ -1,0 +1,46 @@
+/* 主页布局 */
+
+.film {
+    width: 100%;
+}
+
+/* 分类样式 */
+
+.film-type {
+    background-color: white;
+    margin-top: 20rpx;
+}
+
+.film .film-type:first-child {
+    margin-top: 0rpx;
+}
+
+/* 分类标题 */
+
+.type-title {
+    padding: 26rpx 0rpx;
+    font-size: 28rpx;
+    font-weight: bold;
+    color: #333;
+}
+
+.type-title text:first-child {
+    border-left: 6rpx solid #42bd56;
+    padding-left: 26rpx;
+}
+
+.type-title text:last-child, .type-title navigator {
+    color: #42bd56;
+    float: right;
+    font-weight: normal;
+    padding-right: 16rpx;
+}
+
+/* 电影列表 */
+
+.film-list {
+    display: flex;
+    white-space: nowrap;
+    /* padding: 0rpx 12rpx;  */
+    /* text-indent: 12rpx; */
+}

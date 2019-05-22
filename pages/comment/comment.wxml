@@ -1,0 +1,118 @@
+<!-- 评论页容器 start  -->
+<view>
+    <!-- 分时评论列表 start  -->
+    <view>
+        <view class='feed-date'>2018-06-09</view>
+        <!-- 评论元素 start  -->
+        <view class="feed-item">
+            <view class='feed-content'>
+                <view class="feed-image">
+                    <image src="../../imgs/01.jpg"></image>
+                </view>
+                <view class='feed-text'>
+                    <view>我心目中的国产电影十佳</view>
+                    <text>十佳，总在变，一年一个样儿。 因为阅片量在增加，人的趣味也在变，考虑问题的角度也不同了。以下是我此刻心中的国产十佳，有效期1个月。 选片范围：大陆（不含港台）。 按时间正序排列。 No.1 《神女》1934年 1934年的国片，中国电影史上最伟大的默片。 正值左翼电影运动时期，剧情难免流于苦情和控诉。可是电影语言流畅，胯下看人的镜头也很惊艳。 更值得回味的是阮玲玉的表演：自然，冷艳，不着痕迹，远超同时代的女演员那种夸张、造作、戏剧式的表演方法。 她真的是表演天才。...</text>
+                </view>
+            </view>
+            <view class="author">
+                by
+                <text class="name">子戈</text>
+            </view>
+        </view>
+        <!-- 评论元素 end  -->
+        <!-- 评论元素 start  -->
+        <view class="feed-item">
+            <view class='feed-content'>
+                <view class="feed-image">
+                   
+                </view>
+                <view class='feed-text'>
+                    <view>我心目中的国产电影十佳</view>
+                    <text>十佳，总在变，一年一个样儿。 因为阅片量在增加，人的趣味也在变，考虑问题的角度也不同了。以下是我此刻心中的国产十佳，有效期1个月。 选片范围：大陆（不含港台）。 按时间正序排列。 No.1 《神女》1934年 1934年的国片，中国电影史上最伟大的默片。 正值左翼电影运动时期，剧情难免流于苦情和控诉。可是电影语言流畅，胯下看人的镜头也很惊艳。 更值得回味的是阮玲玉的表演：自然，冷艳，不着痕迹，远超同时代的女演员那种夸张、造作、戏剧式的表演方法。 她真的是表演天才。...</text>
+                </view>
+            </view>
+            <view class="author">
+                by
+                <text class="name">子戈</text>
+            </view>
+        </view>
+        <!-- 评论元素 end  -->
+        <!-- 评论元素 start  -->
+        <view class="feed-item">
+            <view class='feed-content'>
+                <view class="feed-image">
+                    <image src="../../imgs/01.jpg"></image>
+                </view>
+                <view class='feed-text'>
+                    <view>我心目中的国产电影十佳</view>
+                    <text>十佳，总在变，一年一个样儿。 因为阅片量在增加，人的趣味也在变，考虑问题的角度也不同了。以下是我此刻心中的国产十佳，有效期1个月。 选片范围：大陆（不含港台）。 按时间正序排列。 No.1 《神女》1934年 1934年的国片，中国电影史上最伟大的默片。 正值左翼电影运动时期，剧情难免流于苦情和控诉。可是电影语言流畅，胯下看人的镜头也很惊艳。 更值得回味的是阮玲玉的表演：自然，冷艳，不着痕迹，远超同时代的女演员那种夸张、造作、戏剧式的表演方法。 她真的是表演天才。...</text>
+                </view>
+            </view>
+            <view class="author">
+                by
+                <text class="name">子戈</text>
+            </view>
+        </view>
+        <!-- 评论元素 end  -->
+    </view>
+    <!-- 分时评论列表 end  -->
+
+    <!-- 分时评论列表 start  -->
+    <view>
+        <view class='feed-date'>2018-06-09</view>
+        <!-- 评论元素 start  -->
+        <view class="feed-item">
+            <view class='feed-content'>
+                <view class="feed-image">
+                    <image src="../../imgs/01.jpg"></image>
+                </view>
+                <view class='feed-text'>
+                    <view>我心目中的国产电影十佳</view>
+                    <text>十佳，总在变，一年一个样儿。 因为阅片量在增加，人的趣味也在变，考虑问题的角度也不同了。以下是我此刻心中的国产十佳，有效期1个月。 选片范围：大陆（不含港台）。 按时间正序排列。 No.1 《神女》1934年 1934年的国片，中国电影史上最伟大的默片。 正值左翼电影运动时期，剧情难免流于苦情和控诉。可是电影语言流畅，胯下看人的镜头也很惊艳。 更值得回味的是阮玲玉的表演：自然，冷艳，不着痕迹，远超同时代的女演员那种夸张、造作、戏剧式的表演方法。 她真的是表演天才。...</text>
+                </view>
+            </view>
+            <view class="author">
+                by
+                <text class="name">子戈</text>
+            </view>
+        </view>
+        <!-- 评论元素 end  -->
+        <!-- 评论元素 start  -->
+        <view class="feed-item">
+            <view class='feed-content'>
+                <view class="feed-image">
+                   
+                </view>
+                <view class='feed-text'>
+                    <view>我心目中的国产电影十佳</view>
+                    <text>十佳，总在变，一年一个样儿。 因为阅片量在增加，人的趣味也在变，考虑问题的角度也不同了。以下是我此刻心中的国产十佳，有效期1个月。 选片范围：大陆（不含港台）。 按时间正序排列。 No.1 《神女》1934年 1934年的国片，中国电影史上最伟大的默片。 正值左翼电影运动时期，剧情难免流于苦情和控诉。可是电影语言流畅，胯下看人的镜头也很惊艳。 更值得回味的是阮玲玉的表演：自然，冷艳，不着痕迹，远超同时代的女演员那种夸张、造作、戏剧式的表演方法。 她真的是表演天才。...</text>
+                </view>
+            </view>
+            <view class="author">
+                by
+                <text class="name">子戈</text>
+            </view>
+        </view>
+        <!-- 评论元素 end  -->
+        <!-- 评论元素 start  -->
+        <view class="feed-item">
+            <view class='feed-content'>
+                <view class="feed-image">
+                    <image src="../../imgs/01.jpg"></image>
+                </view>
+                <view class='feed-text'>
+                    <view>我心目中的国产电影十佳</view>
+                    <text>十佳，总在变，一年一个样儿。 因为阅片量在增加，人的趣味也在变，考虑问题的角度也不同了。以下是我此刻心中的国产十佳，有效期1个月。 选片范围：大陆（不含港台）。 按时间正序排列。 No.1 《神女》1934年 1934年的国片，中国电影史上最伟大的默片。 正值左翼电影运动时期，剧情难免流于苦情和控诉。可是电影语言流畅，胯下看人的镜头也很惊艳。 更值得回味的是阮玲玉的表演：自然，冷艳，不着痕迹，远超同时代的女演员那种夸张、造作、戏剧式的表演方法。 她真的是表演天才。...</text>
+                </view>
+            </view>
+            <view class="author">
+                by
+                <text class="name">子戈</text>
+            </view>
+        </view>
+        <!-- 评论元素 end  -->
+    </view>
+    <!-- 分时评论列表 end  -->
+
+</view>
+<!-- 评论页容器 end  -->

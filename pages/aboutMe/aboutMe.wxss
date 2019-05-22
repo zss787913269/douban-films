@@ -1,0 +1,56 @@
+/* 登陆授权 */
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #42bd56;  *//* height: 400rpx; */
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #42bd56), color-stop(1, #84ca90));
+}
+
+.userinfo-avatar {
+    width: 200rpx;
+    height: 200rpx;
+    margin: 40rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #fff;
+    margin-bottom: 40rpx;
+}
+
+/* 收藏列表 */
+.usermotto {
+     background-color: #fff;
+}
+
+.usermotto .title {
+    padding: 26rpx 32rpx;
+    font-size: 36rpx;
+    color: #333;
+}
+
+.usermotto .btn {
+    display: block;
+    font-size: 30rpx;
+    color: orangered;
+    line-height: 1.5;
+    margin: 0rpx 12rpx;
+}
+.usermotto .likes-list{
+    display: flex;
+    white-space: nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0rpx 12rpx;
+}
+
+/* 电影元素 */
+.likes-film{
+    margin-bottom: 30rpx;
+}
+.film-item-add{
+     width: 200rpx;
+     display: inline-block;
+     padding:0rpx 12rpx;
+}

@@ -1,0 +1,66 @@
+/* 时间标题  */
+.feed-date {
+    font-size: 38rpx;
+    color: #111;
+    text-align: center;
+    padding: 20rpx 0rpx;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20rpx;
+}
+/* 评论元素  */
+.feed-item {
+    margin: 0rpx 40rpx;
+    padding-bottom: 40rpx;
+}
+
+.feed-item:not(:last-child) {
+    margin-top: 20rpx;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 评论内容  */
+.feed-content {
+    min-height: 120rpx;
+}
+
+.feed-text {
+    text-align: justify;
+    font-size: 30rpx;
+    color: #494949;
+    margin-bottom: 20rpx;
+    margin-top: 20rpx;
+}
+
+.feed-text view {
+    margin-bottom: 12rpx;
+    font-weight: bold;
+}
+
+.feed-text text {
+    overflow: hidden;
+    color: #aaa;
+    font-size: 24rpx;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.feed-image {
+    float: right;
+    margin-left: 30rpx;
+}
+
+.feed-image image {
+    width: 160rpx;
+    height: 194rpx;
+}
+
+.author {
+    font-size: 24rpx;
+    color: #999;
+}
+
+.author .name {
+    color: #42bd56;
+}

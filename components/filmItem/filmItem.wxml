@@ -1,0 +1,36 @@
+<!-- 电影 start -->
+<view class='film-item' bindtap='showDetail' data-filmId="{{ film.id }}">
+    <image class='item-img' src="{{ film.cover.url }}"></image>
+    <view class="item-name">{{ film.title }}</view>
+    <view class='item-star' wx:if="{{ film.rating }}">
+        <!-- 
+                    1  == 2 
+                    2  == 4
+                    3  == 6
+                    4  == 8
+                    5  == 10
+
+                    以中线的方式将分数进位
+                      3.1+0.5*2 ==>  4  == 2 
+
+                      3.6 == 4 ==>  3.6+0.5
+                   -->
+        <!-- 
+                      不推荐
+                      循环次数过多 会导致页面效率低
+                      ！！！！在模块化开发中 ，不建议 将 判断和循环写在一个标签上 
+                   -->
+        <!-- <image wx:for="{{ 5 }}" wx:if="{{ (index+1)*2<=(7.8+1) }}" class='image' src='../../imgs/star-open.png'></image>
+                    <image wx:for="{{ 5 }}" wx:if="{{ (index+1)*2>(7.8+1) }}" class='image' src='../../imgs/star-close.png'></image>  -->
+
+        <block wx:for="{{ 5 }}" wx:key="{{ index }}">
+            <image wx:if="{{ (index+1)*2<=(film.rating.value+1) }}" class='image' src='../../imgs/star-open.png'></image>
+            <image wx:if="{{ (index+1)*2>(film.rating.value+1) }}" class='image' src='../../imgs/star-close.png'></image>
+        </block>
+        <text class="item-source">{{ film.rating.value }}{{ film.rating.value%1==0?".0":"" }}</text>
+    </view>
+    <view class='item-star msg' wx:if="{{ !film.rating }}">
+        占无评分
+    </view>
+</view>
+<!-- 电影 end -->

@@ -1,0 +1,18 @@
+<view>
+    <view class="userinfo">
+        <image class="userinfo-avatar" src="{{ userInfo.avatarUrl || '../../imgs/default-user.png' }}"></image>
+        <text wx:if="{{ userInfo }}" class="userinfo-nickname">{{ userInfo.nickName }}</text>
+        <button wx:if="{{ !userInfo }}" open-type="getUserInfo" bindgetuserinfo="loadUserInfo">点击授权</button>
+    </view>
+    <view class="usermotto">
+        <view class='title'>我的收藏</view>
+        <view class='likes-list'>
+
+            <view class='likes-film' wx:for="{{ likes }}" wx:key="{{ index }}" wx:for-item="like">
+                <film-item film="{{ like }}"></film-item>
+                <button class="btn" bindtap='deleteLike' data-id="{{ index }}">删除</button>
+            </view>
+            <view class='film-item-add' wx:for="{{ 3-(size%3) }}"></view>
+        </view>
+    </view>
+</view>

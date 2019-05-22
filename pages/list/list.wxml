@@ -1,0 +1,22 @@
+<!-- 主页容器 start -->
+<view class='film'>
+    <!-- 列表容器 start-->
+    <view class='film-type' >
+        <!-- 标题 start -->
+        <view class='type-title'>
+            <text>{{ title }}</text>
+        </view>
+        <!-- 标题 end -->
+        <!-- 列表 start -->
+        <!-- {{ list.length }} -->
+        <view class='film-list'>
+            <!-- 电影 start -->
+            <film-item wx:for="{{ list }}" wx:key="{{ index }}" film="{{ item }}" ></film-item>
+            <view wx:for="{{ 3-( list.length %3) }}" wx:key="{{ index }}" class='film-item-add'></view>  
+            <!-- 电影 end -->
+        </view>
+        <!-- 列表 end  -->
+    </view>
+    <!-- 列表容器 end -->
+</view>
+<!-- 主页容器 end -->

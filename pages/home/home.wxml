@@ -1,0 +1,26 @@
+<!-- 主页容器 start -->
+<view class='film'>
+    <loading wx:if="{{ loading }}"></loading>
+<!-- <button bindtap='loadHomeDatas'>触发方法</button> -->
+
+    <block wx:if="{{ !loading }}">
+      <!-- 列表容器 start-->
+      <view class='film-type' wx:for="{{ typeList }}" wx:for-index="i" wx:for-item="type" wx:key="{{ i }}">
+          <!-- 标题 start -->
+          <view class='type-title'>
+              <text>{{ type.title }}</text>
+              <navigator url="/pages/list/list?reqUrl={{ type.reqUrl }}">更多</navigator>
+          </view>
+          <!-- 标题 end -->
+          <!-- 列表 start -->
+          <scroll-view class='film-list' scroll-x>
+            <!-- 加载电影元素 start  -->
+            <film-item wx:for="{{ type.list }}" wx:key="{{ index }}" wx:for-item="film" film="{{ film }}"></film-item>
+            <!-- 加载电影元素 end  -->
+          </scroll-view>
+          <!-- 列表 end  -->
+      </view>
+      <!-- 列表容器 end -->
+    </block>
+</view>
+<!-- 主页容器 end -->

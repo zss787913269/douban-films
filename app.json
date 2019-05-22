@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/comment/comment",
+    "pages/aboutMe/aboutMe",
+    "pages/list/list",
+    "pages/filmDetail/filmDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#42bd56",
+    "navigationBarTitleText": "影评集中营(学习)",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "imgs/film-close.png",
+        "selectedIconPath": "imgs/film-open.png"
+      },
+      {
+        "pagePath": "pages/comment/comment",
+        "text": "评论",
+        "iconPath": "imgs/comment-close.png",
+        "selectedIconPath": "imgs/comment-open.png"
+      },
+      {
+        "pagePath": "pages/aboutMe/aboutMe",
+        "text": "关于我",
+        "iconPath": "imgs/me-close.png",
+        "selectedIconPath": "imgs/me-open.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

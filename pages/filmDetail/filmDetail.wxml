@@ -1,0 +1,75 @@
+<view class='filmDetail'>
+
+    <!-- 电影标题 start -->
+    <view class='film-desc'>
+        <view class='desc-bc'>
+            <view class='bc-shade'></view>
+            <image mode='widthFix' src='{{ film.cover.url }}'></image>
+        </view>
+        
+        <view class='film-info'>
+            <image mode='aspectFit' class='film-img' src='{{ film.cover.url }}'></image>
+            <view class='film-intro'>
+                <view class='title'>{{ film.title }}</view>
+                <view class='source'>{{ film.rating.value }} 分 {{ film.rating.count }} 人评价</view>
+            </view>
+        </view>
+    </view>
+    <!-- 电影标题 end -->
+    <!-- 电影介绍 start -->
+    <view class='film-detail'>
+        <view class='info'>
+            <text>电影简介：</text>
+            <text>{{ film.info }}</text>
+        </view>
+
+        <view class='info'>
+            <text>首映时间：</text>
+            <text> {{ film.date }} (中国大陆)</text>
+        </view>
+
+        <view class='info bottom'>
+            <text>剧情介绍：</text>
+            <text>{{ film.intro }}</text>
+        </view>
+
+        <view>
+            <button class='collection' bindtap='addFilm'>收藏</button>
+        </view>
+    </view>
+    <!-- 电影介绍 end -->
+    <!-- 演员列表 start  -->
+    <view class='performer-list'>
+        <view class='title'>
+            <text>演员：</text>
+        </view>
+        <scroll-view class='actors' scroll-x>
+            <view class='actors-item' wx:for="{{ film.actors }}" wx:for-item="ac" wx:key="{{ index }}">
+                <image class="actors-img" src="{{ ac.cover_url }}"></image>
+                <text class="actors-name">{{ ac.name }}</text>
+            </view>
+        </scroll-view>
+    </view>
+    <!-- 演员列表 end  -->
+    <!-- 评论列表 start  -->
+    <view class="comment-list">
+        <view class='title'>
+            <text>评论：</text>
+        </view>
+        <!-- 评论  start-->
+        <view class='item' wx:for="{{ commonts.list }}" wx:key="{{ index }}" wx:for-item="com">
+            <view class='item-left'>
+                <image src='{{ com.user.avatar }}'></image>
+            </view>
+            <view class='item-right'>
+                <view class='username'>{{ com.user.name }}</view>
+                <view class='item-time'>{{ com.create_time }}</view>
+                <view class='item-main'>{{ com.comment }}</view>
+            </view>
+        </view>
+        <!-- 评论 end -->
+    </view>
+    <!-- 评论列表 end  -->
+
+    <loading wx:if="{{ showLoading }}"></loading>
+</view>
